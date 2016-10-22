@@ -48,7 +48,6 @@ display:inline-block;
 .pr{
 	position: absolute;
 	height: 20px;
-	width: 720px;
 	background-color: white;
 	opacity: 1;
 }

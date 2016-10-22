@@ -18,7 +18,9 @@ $( document ).ready(function() {
 
 	var prTop=$(".con1").offset().top+$(".con1").outerHeight()-$(".pr").outerHeight();
 	$(".pr").offset({top: prTop});
-
+	var prWidth=$(".con1").outerWidth(true);
+	$(".pr").width(prWidth);
+	
   $( ".sl" ).click(function() { //Klikom na element sa class="sl" ..
 	gog=0;
 	var width=$( ".sl" ).outerWidth();

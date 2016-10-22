@@ -196,11 +196,11 @@
 	
   </div>
   <div class="text-center">
+	
+	<div id="rot" class="con1">
 	<div class="pr"></div>
-	<div id="rot" class="lnk">
 	
-	
-	<ol id="lista" class="faceless con1">
+	<ol id="lista" class="faceless">
     <li class="ord_list_elem" data-target="#myCarousel" data-slide-to="0"><a href="#"><img class="sl" src="img/img1.jpg" alt="Chania"><br><span class="toggle">0</span></a></li>
 	<li class="ord_list_elem" data-target="#myCarousel" data-slide-to="1"><a href="#"><img class="sl" src="img/img2.jpg" alt="Chania"><br><span class="toggle">1</span></a></li>
 	<li class="ord_list_elem" data-target="#myCarousel" data-slide-to="2"><a href="#"><img class="sl" src="img/img3.jpg" alt="Flower"><br><span class="toggle">2</span></a></li>
