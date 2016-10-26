@@ -14,13 +14,19 @@
 		var mr=0;
 		var tmp=0;
 		var OldValue = 0;
-$( document ).ready(function() {
-
+		
+function resizer() {
+    
 	var prTop=$(".con1").offset().top+$(".con1").outerHeight()-$(".pr").outerHeight();
-	$(".pr").offset({top: prTop});
-	var prWidth=$(".con1").outerWidth(true);
+	var prLeft=$(".con1").offset().left;
+	$(".pr").offset({top: prTop, left: prLeft});
+	var prWidth=$(".con1").width();
+	var prHeight=$(".con1").outerHeight(true)
 	$(".pr").width(prWidth);
 	
+}
+$( document ).ready(function() {
+
   $( ".sl" ).click(function() { //Klikom na element sa class="sl" ..
 	gog=0;
 	var width=$( ".sl" ).outerWidth();
@@ -188,6 +194,7 @@ function left(){
 	document.getElementById("mix").innerHTML=clicksLeft;
 	document.getElementById("mix1").innerHTML=currentIndex;
 }
+
 
 
 

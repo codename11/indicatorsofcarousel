@@ -41,16 +41,12 @@ display:inline-block;
 	width: 720px;
 	height: 140px;
     overflow-y: hidden;
+	overflow-x:hidden;
 	white-space:nowrap;
 	margin: 0 auto;
 }
 
-.pr{
-	position: absolute;
-	height: 20px;
-	background-color: white;
-	opacity: 1;
-}
+
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
@@ -59,4 +55,3 @@ display:inline-block;
 .toggle{
 	opacity: 0;
 }
-

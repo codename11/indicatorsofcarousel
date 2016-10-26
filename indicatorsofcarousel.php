@@ -198,7 +198,6 @@
   <div class="text-center">
 	
 	<div id="rot" class="con1">
-	<div class="pr"></div>
 	
 	<ol id="lista" class="faceless">
     <li class="ord_list_elem" data-target="#myCarousel" data-slide-to="0"><a href="#"><img class="sl" src="img/img1.jpg" alt="Chania"><br><span class="toggle">0</span></a></li>
