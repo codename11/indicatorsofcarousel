@@ -75,7 +75,7 @@ $( document ).ready(function() {
 	
 	br=$(".con1").scrollLeft();
 	clicksLeft=count-index;
-
+	
 });
 
 

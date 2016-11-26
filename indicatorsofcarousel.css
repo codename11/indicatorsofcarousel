@@ -81,8 +81,8 @@ background-color:
 @media only screen and (max-width: 500px) {
 
 	.con1{
-	max-width: 0%;
-	max-height: 0%;
+	width: 0%;
+	height: 0%;
 	}
 	
 	.carousel-control.left{
@@ -91,6 +91,11 @@ background-color:
 
 	.carousel-control.right{
 	opacity: 1;
+	}
+	
+	.sl{
+	width: 0%;
+	height: 0%;
 	}
 	
 }
